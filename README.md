@@ -1,15 +1,17 @@
-Two Things I Accepted
+Prompt 1:
 
-1. Mobile-first approach
+I asked ChatGPT the following prompt: What are 2 things I should accept from this plan and one thing I should reject. (and why)
 
-I accepted the recommendation to design mobile-first. Starting with the smallest screen forces you to focus on the most important content and keeps the layout simple. It also makes scaling up to larger screens easier and cleaner.
+Two things I accepted
 
-2. Using clamp() for responsive typography
+I accepted the suggestion to use Flexbox for the header and hero section. This made sense because both sections only needed alignment in one direction (row or column), and Flexbox is good for that.
 
-I accepted the idea of using clamp() for font sizes. It allows text to scale smoothly between screen sizes without needing many breakpoints. This makes the design more flexible and reduces extra CSS.
+I also accepted the recommendation to use CSS Grid for the card layout. Grid made it easier to control how many columns appear at different screen sizes.
 
 One Thing I Rejected (and Why)
 
-Too many breakpoints
+The AI suggested creating multiple small media queries for different layout changes. I decided not to do that because it would make the CSS file longer and harder to read. Instead, I grouped my changes into two main breakpoints (900px and 600px) to keep things more organized.
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-I rejected the idea of using many breakpoints (xs, sm, md, lg, xl, 2xl). I think three main breakpoints (mobile, tablet, desktop) are enough for most designs. Having too many breakpoints can make the CSS more complex and harder to manage.
+Prompt 2:
+
